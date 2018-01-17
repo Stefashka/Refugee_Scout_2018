@@ -46,7 +46,7 @@ const fileUpload = require('express-fileupload');
 
 app.get("/upload", function(request, response) {
     console.log("upload");
-    response.sendFile('./testindex.html');
+    response.sendFile('C:/users/elisabeth/Refugee_Scout_2018/testindex.html');
 });
 
 app.use(fileUpload());
@@ -59,7 +59,7 @@ app.post('/upload', function(req, res) {
     let sampleFile = req.files.sampleFile;
 
     // Use the mv() method to place the file somewhere on your server
-    sampleFile.mv('./storyimages/filename.jpg', function(err) {
+    sampleFile.mv('C:/users/elisabeth/Refugee_Scout_2018/storyimages/filename.jpg', function(err) {
         if (err)
             return res.status(500).send(err);
 
@@ -153,7 +153,7 @@ app.listen(3000,function(){
 /** Abruf von login.html, webb /login aufgerufen wird */
 app.get("/login", function(request, response) {
 	console.log("login");
-	response.sendFile('./index.html');
+	response.sendFile('C:/users/elisabeth/Refugee_Scout_2018/index.html');
 });
 
 
@@ -233,7 +233,7 @@ app.post("/loginuser", function(request, response) {
 
       if(results[0].password === password){
 
-          response.sendFile('./myprofile.html');
+          response.sendFile('C:/users/elisabeth/Refugee_Scout_2018/myprofile.html');
 
 
        // response.send({
