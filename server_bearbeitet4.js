@@ -1,12 +1,17 @@
 //Import the necessary libraries/declare the necessary objects
 /** Variable für das laden von Express */
 var express = require("express");
+
+var session = require('express-session')
+
 /** Variable für das Laden von Bodyparser */
 var myParser = require("body-parser");
 /** Variable für ??? */
 var app = express();
 
 var mysql = require('mysql');
+
+
 
 var connection = mysql.createConnection({
     host: "localhost",
