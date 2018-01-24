@@ -1,0 +1,122 @@
+﻿{
+    "storypart1": {
+        "bild": "crime/bild1.jpg",
+        "bildtext": "I have no money",
+        "position": "bottom",
+        "typ": ""
+    },
+    "storypart2": {
+        "bild": "crime/bild2.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },    
+    "storypart3": {
+        "bild": "crime/bild3.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""      
+    },
+    "storypart4": {
+        "bild": "crime/bild4.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart5": {
+        "bild": "crime/bild5.jpg",
+        "bildtext": "What should I do?",
+        "position": "bottom",
+        "typ": ""
+    }, 
+    "storypart6": {
+        "bild": "crime/bild6.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart7": {
+        "bild": "crime/bild7.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart8": {
+        "bild": "crime/bild8.jpg",
+        "bildtext": "I know, it is not legal to deal with drugs, but... ",
+        "position": "bottom",
+        "typ": ""
+    },
+    "storypart9": {
+        "bild": "crime/bild9.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart10": {
+        "bild": "crime/bild10.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },    
+    "storypart11": {
+        "bild": "crime/bild11.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""      
+    },
+    "storypart12": {
+        "bild": "crime/bild12.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart13": {
+        "bild": "crime/bild13.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart14": {
+        "bild": "crime/bild14.jpg",
+        "bildtext": "Damn she got me!" ,
+        "position": "bottom",
+        "typ": ""
+    },
+    "storypart15": {
+        "bild": "crime/bild15.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart16": {
+        "bild": "crime/bild16.jpg",
+        "bildtext": "The punishment will be very high in Germany",
+        "position": "bottom",
+        "typ": ""
+    },
+    "storypart17": {
+        "bild": "crime/bild17.jpg",
+        "bildtext": "I‘m in jail",
+        "position": "",
+        "typ": ""
+    },    
+    "storypart18": {
+        "bild": "crime/bild18.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart19": {
+        "bild": "crime/bild19.jpg",
+        "bildtext": "Huch! It just was a dream!",
+        "position": "bottom",
+        "typ": ""
+    }, 
+    "storypart20": {
+        "bild": "crime/storyende.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }
+}

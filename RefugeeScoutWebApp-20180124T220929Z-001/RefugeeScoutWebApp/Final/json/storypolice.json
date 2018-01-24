@@ -1,0 +1,158 @@
+﻿{
+    "storypart1": {
+        "bild": "police/bild1.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart2": {
+        "bild": "police/bild2.jpg",
+        "bildtext": "Faris and Amira are waiting at the traffic light",
+        "position": "bottom",
+        "typ": ""
+    },    
+    "storypart3": {
+        "bild": "police/bild3.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""      
+    },
+    "storypart4": {
+        "bild": "police/bild4.jpg",
+        "bildtext": "But it feels like it will never turn green",
+        "position": "bottom",
+        "typ": ""
+    },
+    "storypart5": {
+        "bild": "police/bild5.jpg",
+        "bildtext": "Amira can't wait any longer",
+        "position": "bottom",
+        "typ": "textbox"
+    }, 
+    "storypart6": {
+        "bild": "police/bild6.jpg",
+        "bildtext": "...so they decide to cross the street while the light is still red...",
+        "position": "bottom",
+        "typ": ""
+    },
+    "storypart7": {
+        "bild": "police/bild7.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart8": {
+        "bild": "police/bild8.jpg",
+        "bildtext": "On their way…",
+        "position": "bottom",
+        "typ": ""
+    },
+    "storypart9": {
+        "bild": "police/bild9.jpg",
+        "bildtext": "… they don’t know in which direction to go to find the next supermarket",
+        "position": "bottom",
+        "typ": ""
+    }, 
+    "storypart10": {
+        "bild": "police/bild10.jpg",
+        "bildtext": "When they see a woman coming...",
+        "position": "bottom",
+        "typ": ""
+    },    
+    "storypart11": {
+        "bild": "police/bild11.jpg",
+        "bildtext": "… they decide to ask her for the way. >>Excuse me, can you tell us where to go for the next supermarket?<<",
+        "position": "bottom",
+        "typ": ""      
+    },
+    "storypart12": {
+        "bild": "police/bild12.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart13": {
+        "bild": "police/bild13.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart14": {
+        "bild": "police/bild14.jpg",
+        "bildtext": "The woman seems not to know the way either" ,
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart15": {
+        "bild": "police/bild15.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart16": {
+        "bild": "police/bild16.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart17": {
+        "bild": "police/bild17.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },    
+    "storypart18": {
+        "bild": "police/bild18.jpg",
+        "bildtext": "Faris and Amira are scared of getting in danger with the policewoman…",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart19": {
+        "bild": "police/bild19.jpg",
+        "bildtext": "… as they just crossed the street when the traffic light was red a few minutes ago",
+        "position": "bottom",
+        "typ": "textbox"
+    }, 
+    "storypart20": {
+        "bild": "police/bild20.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart21": {
+        "bild": "police/bild21.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart22": {
+        "bild": "police/bild22.jpg",
+        "bildtext": "But the policewoman just wanted to show them the way",
+        "position": "bottom",
+        "typ": ""
+    },
+    "storypart23": {
+        "bild": "police/bild23.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },        
+    "storypart24": {
+        "bild": "police/bild24.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart25": {
+        "bild": "police/bild25.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart25": {
+        "bild": "police/storyende.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }
+}

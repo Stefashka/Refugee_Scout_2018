@@ -1,0 +1,111 @@
+<% include ../partials/header %>
+<head>
+    <title>RefugeeScout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<a href="/campgrounds/new" title="To Top" class="anker">
+    <img src="images/newstory3.png">
+</a>
+<br><br>
+<div class="container ">
+
+    <div class="row">
+        <div class="col-sm-3 well bright_blue">
+            <br>
+            <div class="well white_color">
+                <p class="text-center pacifico_font_description">My Profile</p>
+                <img src="images/profile.PNG" class="img-circle img_center"  height="150" width="150" alt="Avatar">
+               <p> <br><p>Username: Stefashka <br>
+                E-Mail: Test(at)gmx.de <br>
+                Password: *******<br>
+                <a href="#">Edit</a></p></p>
+            </div>
+
+            
+            <p class="text-center"><a href="#">Olga Schuschugov</a></p>
+            <p class="text-center"><a href="#">Wolfgang Müller</a></p>
+            <p class="text-center"><a href="#">Walter White</a></p>
+        </div>
+
+        <div class="col-sm-9">
+		
+		<div class="row">
+                <div class="col-sm-12 headline text-center">Overview over your Stories</div> <br><br><br>
+        </div>
+		
+		 <div class="row text-center flex-wrap" id="campground-grid">
+        <% campgrounds.forEach(function(campground){ %>
+            <div class="col-md-3 col-sm-6">
+                <div class="thumbnail">
+                   <img src="<%= campground.image %>">
+                   <div class="caption">
+                       <h4><%= campground.name %></h4>
+                   </div>
+                   <p>
+                       <a href="/campgrounds/<%= campground._id %>" class="btn btn-primary">More Info</a>
+                   </p>
+                </div>
+            </div>
+        <% }); %>
+		</div>
+            
+            <div class="row">
+				 <% campgrounds.forEach(function(campground){ %>
+			
+                <div class="col-sm-3 col-sm-6">
+				
+                    <div class="well">
+                        <p class="text-center pacifico_font_description"><h4><%= campground.name %></h4></p>
+                        
+						<a href="#"> <img src="<%= campground.image %> class="img" height="150" width="150" alt="Avatar"></a><br><br>
+                        
+						<p>
+							<a href="/campgrounds/<%= campground._id %>" class="btn btn-primary">Edit</a>
+						
+							<a href="#" class="delete">Delete</a> 
+						
+						</p>
+                   
+				   </div>
+                
+				
+				
+				
+</div>
+                <div class="col-sm-3 ">
+                    <div class="well ">
+                        <p class="pacifico_font_description"> Description</p>
+						
+                           <p><%= campground.description %></p>
+						   
+                    </div>
+                </div>
+				
+				 <% }); %>
+            </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+<footer class="container-fluid text-center">
+    <p>A project of students from the University of Weingarten - Media and Education Management. </p><br>
+    <a href="#">Get in contact</a>
+</footer>
+
+</body>
+

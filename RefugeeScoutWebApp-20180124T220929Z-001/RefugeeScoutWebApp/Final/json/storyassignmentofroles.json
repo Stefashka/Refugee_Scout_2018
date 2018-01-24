@@ -1,0 +1,182 @@
+﻿{
+    "storypart1": {
+        "bild": "assignmentofroles/bild1.jpg",
+        "bildtext": "This evening, Amira and her boyfriend David visit their german friends Maria and Kai.",
+        "position": "bottom",
+        "typ": ""
+    },
+    "storypart2": {
+        "bild": "assignmentofroles/bild2.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },    
+    "storypart3": {
+        "bild": "assignmentofroles/bild3.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""      
+    },
+    "storypart4": {
+        "bild": "assignmentofroles/bild4.jpg",
+        "bildtext": "After the welcome and some conversations, Amira and David start to set the table.",
+        "position": "bottom",
+        "typ": ""
+    },
+    "storypart5": {
+        "bild": "assignmentofroles/bild5.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart6": {
+        "bild": "assignmentofroles/bild6.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart7": {
+        "bild": "assignmentofroles/bild7.jpg",
+        "bildtext": "Maria and Amira clink glasses …",
+        "position": "bottom",
+        "typ": ""
+    }, 
+    "storypart8": {
+        "bild": "assignmentofroles/bild8.jpg",
+        "bildtext": "…while Kai and David start to slice the vegetables.",
+        "position": "bottom",
+        "typ": ""
+    },
+    "storypart9": {
+        "bild": "assignmentofroles/bild9.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart10": {
+        "bild": "assignmentofroles/bild10.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },    
+    "storypart11": {
+        "bild": "assignmentofroles/bild11.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""      
+    },
+    "storypart12": {
+        "bild": "assignmentofroles/bild12.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart13": {
+        "bild": "assignmentofroles/bild13.jpg",
+        "bildtext": "Amira: >>You did a great job guys, but now we continue cooking!<<",
+        "position": "bottom",
+        "typ": ""
+    }, 
+    "storypart14": {
+        "bild": "assignmentofroles/bild14.jpg",
+        "bildtext": "…and Maria starts frying the food." ,
+        "position": "bottom",
+        "typ": ""
+    },
+    "storypart15": {
+        "bild": "assignmentofroles/bild15.jpg",
+        "bildtext": "Amira looks skeptical at the pan…",
+        "position": "bottom",
+        "typ": ""
+    }, 
+    "storypart16": {
+        "bild": "assignmentofroles/bild16.jpg",
+        "bildtext": ">>Is that pork? I'm so sorry, but I don't eat that.<<",
+        "position": "bottom",
+        "typ": ""
+    },
+    "storypart17": {
+        "bild": "assignmentofroles/bild17.jpg",
+        "bildtext": "David: >>Don't worry, Maria told me that she bought something special without meat at all - Look!<<",
+        "position": "bottom",
+        "typ": ""
+    },    
+    "storypart18": {
+        "bild": "assignmentofroles/bild18.jpg",
+        "bildtext": "Maria: >>Dinner is ready!<<",
+        "position": "bottom",
+        "typ": ""
+    },
+    "storypart19": {
+        "bild": "assignmentofroles/bild19.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart20": {
+        "bild": "assignmentofroles/bild20.jpg",
+        "bildtext": ">>Cheers!<<",
+        "position": "bottom",
+        "typ": ""
+    },
+    "storypart21": {
+        "bild": "assignmentofroles/bild21.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart22": {
+        "bild": "assignmentofroles/bild22.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart23": {
+        "bild": "assignmentofroles/bild23.jpg",
+        "bildtext": "After dinner, they clean up the table and the kitchen together.",
+        "position": "bottom",
+        "typ": ""
+    },
+    "storypart24": {
+        "bild": "assignmentofroles/bild24.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart25": {
+        "bild": "assignmentofroles/bild25.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart26": {
+        "bild": "assignmentofroles/bild26.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart27": {
+        "bild": "assignmentofroles/bild27.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart28": {
+        "bild": "assignmentofroles/bild28.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },    
+    "storypart29": {
+        "bild": "assignmentofroles/bild29.jpg",
+        "bildtext": "Amira: >>Thanks for the nice evening, hope to see you two soon!<<",
+        "position": "bottom",
+        "typ": ""
+    }, 
+    "storypart29": {
+        "bild": "assignmentofroles/storyende.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }                 
+}

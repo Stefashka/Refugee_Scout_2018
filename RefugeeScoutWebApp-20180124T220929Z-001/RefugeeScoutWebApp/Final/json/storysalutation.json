@@ -1,0 +1,164 @@
+﻿{
+    "storypart1": {
+        "bild": "salutation/bild1.jpg",
+        "bildtext": "On a sunny day, Amira is sitting in the park…",
+        "position": "bottom",
+        "typ": ""
+    },
+    "storypart2": {
+        "bild": "salutation/bild2.jpg",
+        "bildtext": "…as she sees two girls meeting up. ",
+        "position": "bottom",
+        "typ": ""
+    },    
+    "storypart3": {
+        "bild": "salutation/bild3.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""      
+    },
+    "storypart4": {
+        "bild": "salutation/bild4.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart5": {
+        "bild": "salutation/bild5.jpg",
+        "bildtext": ">>Are they kissing each other on their cheeks to say hello?<<",
+        "position": "bottom",
+        "typ": "textbox"
+    }, 
+    "storypart6": {
+        "bild": "salutation/bild6.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart7": {
+        "bild": "salutation/bild7.jpg",
+        "bildtext": ">>Maybe that’s the way girls are greeting each other here.<<",
+        "position": "bottom",
+        "typ": "textbox"
+    }, 
+    "storypart8": {
+        "bild": "salutation/bild8.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart9": {
+        "bild": "salutation/bild9.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart10": {
+        "bild": "salutation/bild10.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },    
+    "storypart11": {
+        "bild": "salutation/bild11.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""      
+    },
+    "storypart12": {
+        "bild": "salutation/bild12.jpg",
+        "bildtext": ">>Isn’t that Tom from the German course? He has a girlfriend… so why do the boys also get hugged and kissed?<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart13": {
+        "bild": "salutation/bild13.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart14": {
+        "bild": "salutation/bild14.jpg",
+        "bildtext": ">>Obviously that’s the way you greet in Germany.<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart15": {
+        "bild": "salutation/bild15.jpg",
+        "bildtext": ">>Look over there guys, didn’t  we see that girl once in the German course?<<",
+        "position": "bottom",
+        "typ": "textbox"
+    }, 
+    "storypart16": {
+        "bild": "salutation/bild16.jpg",
+        "bildtext": ">>Hey there, if you want you can take a seat on our blanket!<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart17": {
+        "bild": "salutation/bild17.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },    
+    "storypart18": {
+        "bild": "salutation/bild18.jpg",
+        "bildtext": ">>Your name was Amira, right?<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart19": {
+        "bild": "salutation/bild19.jpg",
+        "bildtext": ">>Yees, hello guys!<<",
+        "position": "bottom",
+        "typ": "textbox"
+    }, 
+    "storypart20": {
+        "bild": "salutation/bild20.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart21": {
+        "bild": "salutation/bild21.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart22": {
+        "bild": "salutation/bild22.jpg",
+        "bildtext": ">>Do you know each other better?<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart23": {
+        "bild": "salutation/bild23.jpg",
+        "bildtext": ">>Hello, my name is Julia.<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },        
+    "storypart24": {
+        "bild": "salutation/bild24.jpg",
+        "bildtext": ">>Oh, so shaking hands is the right way to greet, when we first meet!<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart25": {
+        "bild": "salutation/bild25.jpg",
+        "bildtext": ">>I thought everyone is getting hugged and kissed here.<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },          
+    "storypart26": {
+        "bild": "salutation/bild26.jpg",
+        "bildtext": ">>No problem, this is also okay for greeting friends!<<",
+        "position": "bottom",
+        "typ": "textbox"
+    }, 
+    "storypart27": {
+        "bild": "salutation/storyende.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }
+}

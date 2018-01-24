@@ -1,0 +1,152 @@
+{
+    "storypart1": {
+        "bild": "jobs/bild1.jpg",
+        "bildtext": "At 5:30 o'clock in front of a bakery",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart2": {
+        "bild": "jobs/bild2.jpg",
+        "bildtext": "The employees are coming to late!",
+        "position": "bottom",
+        "typ": "textbox"
+    },    
+    "storypart3": {
+        "bild": "jobs/bild3.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart4": {
+        "bild": "jobs/bild4.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart5": {
+        "bild": "jobs/bild5.jpg",
+        "bildtext": "On Monday...",
+        "position": "bottom",
+        "typ": "textbox"
+    }, 
+    "storypart6": {
+        "bild": "jobs/bild6.jpg",
+        "bildtext": "...Tuesday...",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart7": {
+        "bild": "jobs/bild7.jpg",
+        "bildtext": "... Wednesday...",
+        "position": "bottom",
+        "typ": "textbox"
+    }, 
+    "storypart8": {
+        "bild": "jobs/bild8.jpg",
+        "bildtext": "... on every day",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart9": {
+        "bild": "jobs/bild9.jpg",
+        "bildtext": ">>Enough!<<",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart10": {
+        "bild": "jobs/bild10.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart11": {
+        "bild": "jobs/bild11.jpg",
+        "bildtext": "Because of that employee Amira gets fired",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart12": {
+        "bild": "jobs/bild12.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart13": {
+        "bild": "jobs/bild13.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart14": {
+        "bild": "jobs/bild14.jpg",
+        "bildtext": "The other two are coming in time",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart15": {
+        "bild": "jobs/bild15.jpg",
+        "bildtext": "Lamia: >>Faris, Amira got fired because she came too late so often!<< ",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart16": {
+        "bild": "jobs/bild16.jpg",
+        "bildtext": "Faris: >>Yes Lamia, the rules are strict. We shouldn't do the same mistake!<<",
+        "position": "",
+        "typ": ""
+    },
+    "storypart17": {
+        "bild": "jobs/bild17.jpg",
+        "bildtext": "So on the next day...",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart18": {
+        "bild": "jobs/bild18.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart19": {
+        "bild": "jobs/bild19.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart20": {
+        "bild": "jobs/bild20.jpg",
+        "bildtext": "Faris: >>There is nobody inside!<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart21": {
+        "bild": "jobs/bild21.jpg",
+        "bildtext": "Faris: >>The door is closed<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart22": {
+        "bild": "jobs/bild22.jpg",
+        "bildtext": "Lamia: >>But we came in time!<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart23": {
+        "bild": "jobs/bild23.jpg",
+        "bildtext": "Why is the door closed?",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart24": {
+        "bild": "jobs/bild24.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart25": {
+        "bild": "jobs/storyende.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }
+}

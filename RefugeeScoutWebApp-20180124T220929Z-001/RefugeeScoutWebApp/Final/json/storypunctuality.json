@@ -1,0 +1,176 @@
+﻿{
+    "storypart1": {
+        "bild": "punctuality/bild1.jpg",
+        "bildtext": ">>Hey Lamia, how are you?<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart2": {
+        "bild": "punctuality/bild2.jpg",
+        "bildtext": ">>Hey Amira, great to hear from you! I’m sitting here with Faris.<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },    
+    "storypart3": {
+        "bild": "punctuality/bild3.jpg",
+        "bildtext": ">>Great! Do you want to meet up for an ice cream?<<",
+        "position": "bottom",
+        "typ": "textbox"      
+    },
+    "storypart4": {
+        "bild": "punctuality/bild4.jpg",
+        "bildtext": ">>Sure. Let’s meet at 2 pm at the café.<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart5": {
+        "bild": "punctuality/bild5.jpg",
+        "bildtext": ">>Sounds good. See you later!<<",
+        "position": "bottom",
+        "typ": "textbox"
+    }, 
+    "storypart6": {
+        "bild": "punctuality/bild6.jpg",
+        "bildtext": ">>See you, bye!<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart7": {
+        "bild": "punctuality/bild7.jpg",
+        "bildtext": "Later that day, 2 pm at the café",
+        "position": "bottom",
+        "typ": "textbox"
+    }, 
+    "storypart8": {
+        "bild": "punctuality/bild8.jpg",
+        "bildtext": ">>Dind’t you say we meet up here?<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart9": {
+        "bild": "punctuality/bild9.jpg",
+        "bildtext": ">>Yes, but she’s late.<<",
+        "position": "bottom",
+        "typ": "textbox"
+    }, 
+    "storypart10": {
+        "bild": "punctuality/bild10.jpg",
+        "bildtext": ">>Where could she be?<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },    
+    "storypart11": {
+        "bild": "punctuality/bild11.jpg",
+        "bildtext": ">>If it takes so long…<<",
+        "position": "bottom",
+        "typ": "textbox"      
+    },
+    "storypart12": {
+        "bild": "punctuality/bild12.jpg",
+        "bildtext": ">>…we also can go to the bank to withdraw some money.<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart13": {
+        "bild": "punctuality/bild13.jpg",
+        "bildtext": ">>Sure… she’ll be coming later anyway, like always!<< ",
+        "position": "bottom",
+        "typ": "textbox"
+    }, 
+    "storypart14": {
+        "bild": "punctuality/bild14.jpg",
+        "bildtext": "…30 minutes later…" ,
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart15": {
+        "bild": "punctuality/bild15.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart16": {
+        "bild": "punctuality/bild16.jpg",
+        "bildtext": ">>They aren’t here yet?!<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart17": {
+        "bild": "punctuality/bild17.jpg",
+        "bildtext": ">>That’s awkard. Am I that early?<<",
+        "position": "",
+        "typ": ""
+    },    
+    "storypart18": {
+        "bild": "punctuality/bild18.jpg",
+        "bildtext": "Faris and Lamia are coming back to the café",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart19": {
+        "bild": "punctuality/bild19.jpg",
+        "bildtext": ">>I’ll hope Amira is already here.<<",
+        "position": "bottom",
+        "typ": "textbox"
+    }, 
+    "storypart20": {
+        "bild": "punctuality/bild20.jpg",
+        "bildtext": ">>…no she isn’t…<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart21": {
+        "bild": "punctuality/bild21.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }, 
+    "storypart22": {
+        "bild": "punctuality/bild22.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    },
+    "storypart23": {
+        "bild": "punctuality/bild23.jpg",
+        "bildtext": ">>I’m annoyed… I’ll try to call her!<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },        
+    "storypart24": {
+        "bild": "punctuality/bild24.jpg",
+        "bildtext": ">>Hello, Lamia?“",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart25": {
+        "bild": "punctuality/bild25.jpg",
+        "bildtext": ">>Hello ... why do I hear your voice twice?<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },    
+    "storypart26": {
+        "bild": "punctuality/bild26.jpg",
+        "bildtext": ">>Aaah… just around the corner!<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },
+    "storypart27": {
+        "bild": "punctuality/bild27.jpg",
+        "bildtext": ">>Well, that wouldn’t have happened if you were there by time.<<",
+        "position": "bottom",
+        "typ": "textbox"
+    },           
+    "storypart28": {
+        "bild": "punctuality/bild28.jpg",
+        "bildtext": ">>Sorry guys! That was my mistake! Therefore I’ll pay an icecream for each of you!<<",
+        "position": "bottom",
+        "typ": "textbox"
+    }, 
+    "storypart29": {
+        "bild": "punctuality/storyende.jpg",
+        "bildtext": "",
+        "position": "",
+        "typ": ""
+    }
+}
