@@ -6,6 +6,7 @@ footer {
     color: white;
 }
 
+
 .img_center {
     display: block;
     margin: 0 auto;
@@ -15,10 +16,27 @@ footer {
     text-align: left;
 }
 
+.bright_blue_call2action {
+    color: #408dd2;
+    font-size: 130%;
+}
+
+.morephotos {
+    cursor: pointer;
+}
+
 .text_right {
     text-align: right;
 }
 
+.daten_senden_button {
+    width: 30%;
+    height: 60px;
+}
+
+.hidden {
+    display: none;
+}
 .text_center {
     text-align: center;
 }

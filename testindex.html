@@ -1,12 +1,461 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RefugeeScout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $(".morephotos").click(function(){
+        $("div").removeClass("hidden");
+        $(".morephotos").hide();
+        $(".abstand_verstecken").hide();
+
+    });
+
+});
+</script>
+
+</head>
 <body>
-<form ref='uploadForm'
-      id='uploadForm'
-      action='http://localhost:8080/upload'
-      method='post'
-      encType="multipart/form-data">
-    <input type="file" name="sampleFile" />
-    <input type='submit' value='Upload!' />
-</form>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br><br>
+
+<div class="container ">
+
+    <div class="row">
+
+
+        <div class="col-sm-12">
+
+            <div class="row">
+                <div class="col-sm-12 headline text-center">Create your story and upload your pictures</div> <br><br><br>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="well">
+
+                        <img src="images/upload_img.PNG" class="img-responsive"><br>
+                        <p><form ref='uploadForm'
+                                 id='uploadForm'
+                                 action='http://localhost:8080/upload'
+                                 method='post'
+                                 encType="multipart/form-data">
+                                 <label for="input3">Text</label>
+                                 <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                               <input type="file" name="sampleFile" /><br>
+                               <input class="btn btn-primary" type='submit' value='Upload!' />
+                           </form></p>
+                    </div>
+                </div>
+                 <div class="col-sm-3">
+                                    <div class="well">
+
+                                        <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                        <p><form ref='uploadForm'
+                                                 id='uploadForm'
+                                                 action='http://localhost:8080/upload'
+                                                 method='post'
+                                                 encType="multipart/form-data">
+                                                 <label for="input3">Text</label>
+                                                  <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                               <input type="file" name="sampleFile" /><br>
+                                               <input class="btn btn-primary" type='submit' value='Upload!' />
+                                           </form></p>
+                                    </div>
+                                </div>
+                <div class="col-sm-3">
+                                   <div class="well">
+
+                                       <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                       <p><form ref='uploadForm'
+                                                id='uploadForm'
+                                                action='http://localhost:8080/upload'
+                                                method='post'
+                                                encType="multipart/form-data">
+                                                <label for="input3">Text</label>
+                                                <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                              <input type="file" name="sampleFile" /><br>
+                                              <input class="btn btn-primary" type='submit' value='Upload!' />
+                                          </form></p>
+                                   </div>
+                               </div>
+
+                <div class="col-sm-3">
+                                   <div class="well">
+                                       <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                          <p>
+                                          <form ref='uploadForm'
+                                                id='uploadForm'
+                                                action='http://localhost:8080/upload'
+                                                method='post'
+                                                encType="multipart/form-data">
+                                                <label for="input3">Text</label>
+                                                <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                              <input type="file" name="sampleFile" /><br>
+                                              <input class="btn btn-primary" type='submit' value='Upload!' />
+                                          </form>
+                                          </p>
+                                   </div>
+                               </div>
+  </div>
+
+
+            </div>
+
+
+  <div class="col-sm-12">
+
+                      <div class="row">
+                            <div class="col-sm-3">
+                                <div class="well">
+
+                                    <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                    <p><form ref='uploadForm'
+                                             id='uploadForm'
+                                             action='http://localhost:8080/upload'
+                                             method='post'
+                                             encType="multipart/form-data">
+                                             <label for="input3">Text</label>
+                                             <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                           <input type="file" name="sampleFile" /><br>
+                                           <input class="btn btn-primary" type='submit' value='Upload!' />
+                                       </form></p>
+                                </div>
+                            </div>
+                             <div class="col-sm-3">
+                                                <div class="well">
+
+                                                    <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                                    <p><form ref='uploadForm'
+                                                             id='uploadForm'
+                                                             action='http://localhost:8080/upload'
+                                                             method='post'
+                                                             encType="multipart/form-data">
+                                                             <label for="input3">Text</label>
+                                                              <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                                           <input type="file" name="sampleFile" /><br>
+                                                           <input class="btn btn-primary" type='submit' value='Upload!' />
+                                                       </form></p>
+                                                </div>
+                                            </div>
+                            <div class="col-sm-3">
+                                               <div class="well">
+
+                                                   <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                                   <p><form ref='uploadForm'
+                                                            id='uploadForm'
+                                                            action='http://localhost:8080/upload'
+                                                            method='post'
+                                                            encType="multipart/form-data">
+                                                            <label for="input3">Text</label>
+                                                            <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                                          <input type="file" name="sampleFile" /><br>
+                                                          <input class="btn btn-primary" type='submit' value='Upload!' />
+                                                      </form></p>
+                                               </div>
+                                           </div>
+
+                            <div class="col-sm-3">
+                                               <div class="well">
+
+                                                   <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                                   <p><form ref='uploadForm'
+                                                            id='uploadForm'
+                                                            action='http://localhost:8080/upload'
+                                                            method='post'
+                                                            encType="multipart/form-data">
+                                                            <label for="input3">Text</label>
+                                                            <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                                          <input type="file" name="sampleFile" /><br>
+                                                          <input class="btn btn-primary" type='submit' value='Upload!' />
+                                                      </form></p>
+                                               </div>
+                                           </div>
+              </div>
+
+<br class="abstand_verstecken"><br class="abstand_verstecken"><br class="abstand_verstecken">
+                        </div>
+
+
+
+
+
+    <p class="bright_blue_call2action text_center morephotos" > I have more photos! (load more picture entry fields) </p>
+
+
+
+   <div class="col-sm-12 hidden">
+
+
+             <div class="row">
+                 <div class="col-sm-3">
+                     <div class="well">
+
+                         <img src="images/upload_img.PNG" class="img-responsive"><br>
+                         <p><form ref='uploadForm'
+                                  id='uploadForm'
+                                  action='http://localhost:8080/upload'
+                                  method='post'
+                                  encType="multipart/form-data">
+                                  <label for="input3">Text</label>
+                                  <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                <input type="file" name="sampleFile" /><br>
+                                <input class="btn btn-primary" type='submit' value='Upload!' />
+                            </form></p>
+                     </div>
+                 </div>
+                  <div class="col-sm-3">
+                                     <div class="well">
+
+                                         <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                         <p><form ref='uploadForm'
+                                                  id='uploadForm'
+                                                  action='http://localhost:8080/upload'
+                                                  method='post'
+                                                  encType="multipart/form-data">
+                                                  <label for="input3">Text</label>
+                                                  <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                                <input type="file" name="sampleFile" /><br>
+                                                <input class="btn btn-primary" type='submit' value='Upload!' />
+                                            </form></p>
+                                     </div>
+                                 </div>
+                 <div class="col-sm-3">
+                                    <div class="well">
+
+                                        <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                        <p><form ref='uploadForm'
+                                                 id='uploadForm'
+                                                 action='http://localhost:8080/upload'
+                                                 method='post'
+                                                 encType="multipart/form-data">
+                                                 <label for="input3">Text</label>
+                                                 <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                               <input type="file" name="sampleFile" /><br>
+                                               <input class="btn btn-primary" type='submit' value='Upload!' />
+                                           </form></p>
+                                    </div>
+                                </div>
+
+                 <div class="col-sm-3">
+                                    <div class="well">
+
+                                        <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                        <p><form ref='uploadForm'
+                                                 id='uploadForm'
+                                                 action='http://localhost:8080/upload'
+                                                 method='post'
+                                                 encType="multipart/form-data">
+                                                 <label for="input3">Text</label>
+                                                  <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                               <input type="file" name="sampleFile" /><br>
+                                               <input class="btn btn-primary" type='submit' value='Upload!' />
+                                           </form></p>
+                                    </div>
+                                </div>
+   </div>
+
+
+             </div>
+
+               <div class="col-sm-12 hidden">
+
+
+                         <div class="row">
+                             <div class="col-sm-3">
+                                 <div class="well">
+
+                                     <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                     <p><form ref='uploadForm'
+                                              id='uploadForm'
+                                              action='http://localhost:8080/upload'
+                                              method='post'
+                                              encType="multipart/form-data">
+                                              <label for="input3">Text</label>
+                                               <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                            <input type="file" name="sampleFile" /><br>
+                                            <input class="btn btn-primary" type='submit' value='Upload!' />
+                                        </form></p>
+                                 </div>
+                             </div>
+                              <div class="col-sm-3">
+                                                 <div class="well">
+
+                                                     <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                                     <p><form ref='uploadForm'
+                                                              id='uploadForm'
+                                                              action='http://localhost:8080/upload'
+                                                              method='post'
+                                                              encType="multipart/form-data">
+                                                              <label for="input3">Text</label>
+                                                              <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                                            <input type="file" name="sampleFile" /><br>
+                                                            <input class="btn btn-primary" type='submit' value='Upload!' />
+                                                        </form></p>
+                                                 </div>
+                                             </div>
+                             <div class="col-sm-3">
+                                                <div class="well">
+
+                                                    <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                                    <p><form ref='uploadForm'
+                                                             id='uploadForm'
+                                                             action='http://localhost:8080/upload'
+                                                             method='post'
+                                                             encType="multipart/form-data">
+                                                             <label for="input3">Text</label>
+                                                             <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                                           <input type="file" name="sampleFile" /><br>
+                                                           <input class="btn btn-primary" type='submit' value='Upload!' />
+                                                       </form></p>
+                                                </div>
+                                            </div>
+
+                             <div class="col-sm-3">
+                                                <div class="well">
+
+                                                    <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                                    <p><form ref='uploadForm'
+                                                             id='uploadForm'
+                                                             action='http://localhost:8080/upload'
+                                                             method='post'
+                                                             encType="multipart/form-data">
+                                                             <label for="input3">Text</label>
+                                                              <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                                           <input type="file" name="sampleFile" /><br>
+                                                           <input class="btn btn-primary" type='submit' value='Upload!' />
+                                                       </form></p>
+                                                </div>
+                                            </div>
+               </div>
+
+
+                         </div>
+
+   <div class="col-sm-12 hidden show_more_photos">
+
+
+                         <div class="row">
+                             <div class="col-sm-3">
+                                 <div class="well">
+
+                                     <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                     <p><form ref='uploadForm'
+                                              id='uploadForm'
+                                              action='http://localhost:8080/upload'
+                                              method='post'
+                                              encType="multipart/form-data">
+                                              <label for="input3">Text</label>
+                                               <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                            <input type="file" name="sampleFile" /><br>
+                                            <input class="btn btn-primary" type='submit' value='Upload!' />
+                                        </form></p>
+                                 </div>
+                             </div>
+                              <div class="col-sm-3">
+                                                 <div class="well">
+
+                                                     <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                                     <p><form ref='uploadForm'
+                                                              id='uploadForm'
+                                                              action='http://localhost:8080/upload'
+                                                              method='post'
+                                                              encType="multipart/form-data">
+                                                              <label for="input3">Text</label>
+                                                               <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                                            <input type="file" name="sampleFile" /><br>
+                                                            <input class="btn btn-primary" type='submit' value='Upload!' />
+                                                        </form></p>
+                                                 </div>
+                                             </div>
+                             <div class="col-sm-3">
+                                                <div class="well">
+
+                                                    <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                                    <p><form ref='uploadForm'
+                                                             id='uploadForm'
+                                                             action='http://localhost:8080/upload'
+                                                             method='post'
+                                                             encType="multipart/form-data">
+                                                             <label for="input3">Text</label>
+                                                              <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                                           <input type="file" name="sampleFile" /><br>
+                                                           <input class="btn btn-primary" type='submit' value='Upload!' />
+                                                       </form></p>
+                                                </div>
+                                            </div>
+
+                             <div class="col-sm-3">
+                                                <div class="well">
+
+                                                    <img src="images/upload_img.PNG" class="img-responsive"><br>
+                                                    <p><form ref='uploadForm'
+                                                             id='uploadForm'
+                                                             action='http://localhost:8080/upload'
+                                                             method='post'
+                                                             encType="multipart/form-data">
+                                                             <label for="input3">Text</label>
+                                                              <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+                                                           <input type="file" name="sampleFile" /><br>
+                                                           <input class="btn btn-primary" type='submit' value='Upload!' />
+                                                       </form></p>
+                                                </div>
+                                            </div>
+               </div>
+
+
+                         </div>
+
+                </div>
+            </div>
+
+<br><br><br>
+
+<div class="row">
+<div class="col-sm-12 text_center ">
+<input class="btn btn-primary daten_senden_button" type="submit" />
+<br><br><br><br>
+</div>
+</div>
+
+
+
+<footer class="container-fluid text-center">
+    <p>A project of students from the University of Weingarten - Media and Education Management. </p><br>
+    <a href="#">Get in contact</a>
+</footer>
+
+
+
 </body>
 </html>
