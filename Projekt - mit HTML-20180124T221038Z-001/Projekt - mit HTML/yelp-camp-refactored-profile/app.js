@@ -35,7 +35,11 @@ app.use(require("express-session")({
     secret: "Once again Rusty wins cutest dog!",
     resave: false,
     saveUninitialized: false
+
+
 }));
+
+console.log(session);
 
 app.use(flash());
 app.use(passport.initialize());

@@ -42,56 +42,46 @@
 		<div class="row">
                 <div class="col-sm-12 headline text-center">Overview over your Stories</div> <br><br><br>
         </div>
-		
-		 <div class="row text-center flex-wrap" id="campground-grid">
-        <% campgrounds.forEach(function(campground){ %>
-            <div class="col-md-3 col-sm-6">
-                <div class="thumbnail">
-                   <img src="<%= campground.image %>">
-                   <div class="caption">
-                       <h4><%= campground.name %></h4>
-                   </div>
-                   <p>
-                       <a href="/campgrounds/<%= campground._id %>" class="btn btn-primary">More Info</a>
-                   </p>
-                </div>
-            </div>
-        <% }); %>
-		</div>
+
+
             
             <div class="row">
-				 <% campgrounds.forEach(function(campground){ %>
-			
+
+
+
+
+
+                <% campgrounds.forEach(function(campground){ %>
+
+                <% if(currentUser && campground.author.id.equals(currentUser._id)
+                ){%>
+
                 <div class="col-sm-3 col-sm-6">
-				
+
                     <div class="well">
-                        <p class="text-center pacifico_font_description"><h4><%= campground.name %></h4></p>
-                        
+                        <p class="text-center title_xs"><%= campground.name %></p>
+
 						<a href="#"> <img src="<%= campground.image %> class="img" height="150" width="150" alt="Avatar"></a><br><br>
-                        
+
 						<p>
 							<a href="/campgrounds/<%= campground._id %>" class="btn btn-primary">Edit</a>
-						
-							<a href="#" class="delete">Delete</a> 
-						
+
+							<a href="#" class="delete">Delete</a>
+
 						</p>
-                   
+
 				   </div>
-                
-				
-				
-				
-</div>
-                <div class="col-sm-3 ">
-                    <div class="well ">
-                        <p class="pacifico_font_description"> Description</p>
-						
-                           <p><%= campground.description %></p>
-						   
-                    </div>
+
                 </div>
-				
-				 <% }); %>
+
+                <% } %>
+
+                <% }); %>
+
+
+
+
+
             </div>
 
 

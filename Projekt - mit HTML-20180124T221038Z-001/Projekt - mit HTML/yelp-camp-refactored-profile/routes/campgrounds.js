@@ -3,7 +3,6 @@ var router  = express.Router();
 var Campground = require("../models/campground");
 var Comment = require("../models/comment");
 var middleware = require("../middleware");
-var geocoder = require('geocoder');
 
 // Define escapeRegex function for search feature
 function escapeRegex(text) {
@@ -48,12 +47,10 @@ router.post("/", middleware.isLoggedIn, function(req, res){
       id: req.user._id,
       username: req.user.username
   }
-  var cost = req.body.cost;
-  geocoder.geocode(req.body.location, function (err, data) {
-    var lat = data.results[0].geometry.location.lat;
-    var lng = data.results[0].geometry.location.lng;
-    var location = data.results[0].formatted_address;
-    var newCampground = {name: name, image: image, description: desc, cost: cost, author:author, location: location, lat: lat, lng: lng};
+
+
+    var newCampground = {name: name, image: image, description: desc, author:author,};
+
     // Create a new campground and save to DB
     Campground.create(newCampground, function(err, newlyCreated){
         if(err){
@@ -64,7 +61,7 @@ router.post("/", middleware.isLoggedIn, function(req, res){
             res.redirect("/campgrounds");
         }
     });
-  });
+
 });
 
 //NEW - show form to create new campground
@@ -99,11 +96,9 @@ router.get("/:id/edit", middleware.checkUserCampground, function(req, res){
 });
 
 router.put("/:id", function(req, res){
-  geocoder.geocode(req.body.location, function (err, data) {
-    var lat = data.results[0].geometry.location.lat;
-    var lng = data.results[0].geometry.location.lng;
-    var location = data.results[0].formatted_address;
-    var newData = {name: req.body.name, image: req.body.image, description: req.body.description, cost: req.body.cost, location: location, lat: lat, lng: lng};
+
+    var newData = {name: req.body.name, image: req.body.image, description: req.body.description, };
+
     Campground.findByIdAndUpdate(req.params.id, {$set: newData}, function(err, campground){
         if(err){
             req.flash("error", err.message);
@@ -113,7 +108,7 @@ router.put("/:id", function(req, res){
             res.redirect("/campgrounds/" + campground._id);
         }
     });
-  });
+
 });
 
 router.delete("/:id", function(req, res) {
@@ -128,6 +123,33 @@ router.delete("/:id", function(req, res) {
     })
   });
 });
+
+//Bilderupload
+const fileUpload = require('express-fileupload');
+
+router.get("/upload", function(request, response) {
+    console.log("upload");
+    response.sendFile('C:/users/elisabeth/Refugee_Scout_2018/testindex.html');
+});
+
+router.use(fileUpload());
+
+router.post('/upload', function(req, res) {
+    if (!req.files)
+        return res.status(400).send('No files were uploaded.');
+
+    // The name of the input field (i.e. "sampleFile") is used to retrieve the uploaded file
+    let sampleFile = req.files.sampleFile;
+
+    // Use the mv() method to place the file somewhere on your server
+    sampleFile.mv('C:/users/elisabeth/Refugee_Scout_2018/storyimages/filename.jpg', function(err) {
+        if (err)
+            return res.status(500).send(err);
+
+        res.send('File uploaded!');
+    });
+});
+
 
 module.exports = router;
 

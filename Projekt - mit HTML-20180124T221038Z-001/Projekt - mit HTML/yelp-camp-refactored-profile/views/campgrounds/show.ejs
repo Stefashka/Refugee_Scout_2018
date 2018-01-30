@@ -1,4 +1,22 @@
 <% include ../partials/header %>
+
+<div class="well">
+
+  <img src="images/upload_img.PNG" class="img-responsive"><br>
+  <p><form ref='uploadForm'
+           id='uploadForm'
+           action='/upload'
+           method='post'
+           encType="multipart/form-data">
+    <label for="input3">Text</label>
+    <textarea id="input3" class="form-control" rows="3"></textarea><br><br>
+    <input type="file" name="sampleFile" /><br>
+    <input class="btn btn-primary" type='submit' value='Upload!' />
+  </form></p>
+</div>
+
+
+
 <div class="row">
   <div class="col-md-3">
     <div class="list-group">

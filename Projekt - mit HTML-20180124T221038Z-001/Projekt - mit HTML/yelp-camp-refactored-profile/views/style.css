@@ -46,6 +46,10 @@ a.delete {
     background-color: white;
 }
 
+.title_xs {
+    font-size: 50%;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 
