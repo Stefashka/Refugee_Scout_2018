@@ -3,6 +3,7 @@
 <div class="well">
 
   <img src="images/upload_img.PNG" class="img-responsive"><br>
+
   <p><form ref='uploadForm'
            id='uploadForm'
            action='/upload'
@@ -13,6 +14,12 @@
     <input type="file" name="sampleFile" /><br>
     <input class="btn btn-primary" type='submit' value='Upload!' />
   </form></p>
+
+    <form action="fileupload" method="post" enctype="multipart/form-data">
+        <input type="file" name="filetoupload"><br>
+        <input type="submit">
+    </form>
+
 </div>
 
 
@@ -72,31 +79,3 @@
   </div>
 </div>
 </div>
-<script>
-  function initMap() {
-    var lat = <%= campground.lat %>;
-    var lng = <%= campground.lng %>;
-    var center = {lat: lat, lng: lng };
-    var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 8,
-        center: center,
-        scrollwheel: false
-    });
-    var contentString = `
-      <strong><%= campground.name %><br />
-      <%= campground.location %></strong>
-      <p><%= campground.description %></p>
-    `
-    var infowindow = new google.maps.InfoWindow({
-      content: contentString
-    });
-    var marker = new google.maps.Marker({
-        position: center,
-        map: map
-    });
-    marker.addListener('click', function() {
-      infowindow.open(map, marker);
-    });
-  }
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkG51lwJtDvYFKTBdRZlhzYg1D4QFsXPU&callback=initMap"></script>

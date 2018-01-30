@@ -3,6 +3,8 @@ var router  = express.Router();
 var Campground = require("../models/campground");
 var Comment = require("../models/comment");
 var middleware = require("../middleware");
+var formidable = require('formidable');
+var http = require('http');
 
 // Define escapeRegex function for search feature
 function escapeRegex(text) {
@@ -127,14 +129,9 @@ router.delete("/:id", function(req, res) {
 //Bilderupload
 const fileUpload = require('express-fileupload');
 
-router.get("/upload", function(request, response) {
-    console.log("upload");
-    response.sendFile('C:/users/elisabeth/Refugee_Scout_2018/testindex.html');
-});
-
 router.use(fileUpload());
 
-router.post('/upload', function(req, res) {
+router.get('/upload', function(req, res) {
     if (!req.files)
         return res.status(400).send('No files were uploaded.');
 
@@ -142,12 +139,24 @@ router.post('/upload', function(req, res) {
     let sampleFile = req.files.sampleFile;
 
     // Use the mv() method to place the file somewhere on your server
-    sampleFile.mv('C:/users/elisabeth/Refugee_Scout_2018/storyimages/filename.jpg', function(err) {
+    sampleFile.mv('C:/Users/elisabeth/Refugee_Scout_2018/Projekt - mit HTML-20180124T221038Z-001/Projekt - mit HTML/yelp-camp-refactored-profile/images/BildNeu.jpg', function(err) {
         if (err)
             return res.status(500).send(err);
 
         res.send('File uploaded!');
     });
+});
+
+
+//Versuch 2
+http.createServer(function(req,res) {
+    if (req.url == '/fileupload') {
+        var form = new formidable.IncomingForm();
+        form.parse(req, function (err, fields, files){
+            res.write('File uploaded');
+            res.end();
+        })
+    }
 });
 
 

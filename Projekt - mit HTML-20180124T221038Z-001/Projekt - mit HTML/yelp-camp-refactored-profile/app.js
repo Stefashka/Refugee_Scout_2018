@@ -12,6 +12,9 @@ var express     = require("express"),
     session = require("express-session"),
     seedDB      = require("./seeds"),
     methodOverride = require("method-override");
+
+var formidable = require('formidable');
+
 // configure dotenv
 require('dotenv').load();
 
@@ -26,6 +29,7 @@ app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 app.use(methodOverride('_method'));
 app.use(cookieParser('secret'));
+
 //require moment
 app.locals.moment = require('moment');
 // seedDB(); //seed the database
@@ -61,5 +65,5 @@ app.use("/campgrounds", campgroundRoutes);
 app.use("/campgrounds/:id/comments", commentRoutes);
 
 app.listen(3000, process.env.IP, function(){
-   console.log("The YelpCamp Server Has Started!");
+   console.log("The Refugee Scout Server Has Started!");
 });
