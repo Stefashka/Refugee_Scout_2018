@@ -6,7 +6,7 @@ var express     = require("express"),
     cookieParser = require("cookie-parser"),
     LocalStrategy = require("passport-local"),
     flash        = require("connect-flash"),
-    Campground  = require("./models/campground"),
+    Story  = require("./models/story"),
     Comment     = require("./models/comment"),
     User        = require("./models/user"),
     session = require("express-session"),
@@ -20,7 +20,7 @@ require('dotenv').load();
 
 //requiring routes
 var commentRoutes    = require("./routes/comments"),
-    campgroundRoutes = require("./routes/campgrounds"),
+    storyRoutes = require("./routes/stories"),
     indexRoutes      = require("./routes/index")
     
 mongoose.connect("mongodb://localhost/yelp_camp_profiles");
@@ -61,8 +61,8 @@ app.use(function(req, res, next){
 
 
 app.use("/", indexRoutes);
-app.use("/campgrounds", campgroundRoutes);
-app.use("/campgrounds/:id/comments", commentRoutes);
+app.use("/stories", storyRoutes);
+app.use("/stories/:id/comments", commentRoutes);
 
 app.listen(3000, process.env.IP, function(){
    console.log("The Refugee Scout Server Has Started!");

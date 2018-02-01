@@ -6,6 +6,25 @@ var middleware = require("../middleware");
 var formidable = require('formidable');
 var http = require('http');
 
+
+var multer = require('multer');
+var bodyParser = require('body-parser');
+router.use(bodyParser.json());
+
+var Storage = multer.diskStorage({
+    destination: function (req, file, callback) {
+        callback(null, "C:\\Images");
+    },
+    filename: function (req, file, callback) {
+        callback(null, file.fieldname + "_" + Date.now() + "_" + file.originalname);
+    }
+});
+
+var upload = multer({ storage: Storage }).array("imgUploader", 3); //Field name and max count
+
+
+
+
 // Define escapeRegex function for search feature
 function escapeRegex(text) {
     return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
@@ -157,6 +176,16 @@ http.createServer(function(req,res) {
             res.end();
         })
     }
+});
+
+
+router.post("/api/Upload", function (req, res) {
+    upload(req, res, function (err) {
+        if (err) {
+            return res.end("Something went wrong!");
+        }
+        return res.end("File uploaded sucessfully!.");
+    });
 });
 
 
