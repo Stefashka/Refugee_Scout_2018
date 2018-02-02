@@ -1,0 +1,92 @@
+
+    /* Set black background color, white text and some padding */
+footer {
+    background-color: #153f65;
+    padding: 25px;
+    color: white;
+}
+
+.img_center {
+    display: block;
+    margin: 0 auto;
+}
+
+.text_left {
+    text-align: left;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.text_center {
+    text-align: center;
+}
+a.edit {
+    color: green;
+}
+
+a.delete {
+    color: red;
+}
+
+.bright_blue {
+    background-color: #153f65;
+
+    border: none;
+}
+
+.pacifico_font_description {
+    font-family: 'Pacifico', cursive;
+    font-size: 110%;
+    color: #ff9900;
+}
+
+.white_color {
+    background-color: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.headline {
+    font-family: 'Pacifico', cursive;
+    font-size: 200%;
+    color: white;
+    background-color: #153f65;
+}
+
+.anker {
+    position: fixed;
+    right: 10%;
+    bottom: 0px;
+    z-index: 10;
+}
+    .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+        background-color: #153f65;
+        padding: 25px;
+        color: white;
+    }
+
+
+
+    .carousel-inner img {
+        width: 100%; /* Set width to 100% */
+        margin: auto;
+        min-height:200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+        .carousel-caption {
+            display: none;
+        }
+    }

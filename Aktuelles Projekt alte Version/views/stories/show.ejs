@@ -1,0 +1,97 @@
+<% include ../partials/header %>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Upload images to server using Node JS</title>
+  <script src="Scripts/jquery-3.1.1.min.js"></script>
+  <script src="Scripts/jquery.form.min.js"></script>
+  <script>
+      $(document).ready(function () {
+          var options = {
+              beforeSubmit: showRequest,  // pre-submit callback
+              success: showResponse  // post-submit callback
+          };
+
+          // bind to the form's submit event
+          $('#frmUploader').submit(function () {
+              $(this).ajaxSubmit(options);
+              // always return false to prevent standard browser submit and page navigation
+              return false;
+          });
+      });
+
+      // pre-submit callback
+      function showRequest(formData, jqForm, options) {
+          alert('Uploading is starting.');
+          return true;
+      }
+
+      // post-submit callback
+      function showResponse(responseText, statusText, xhr, $form) {
+          alert('status: ' + statusText + '\n\nresponseText: \n' + responseText );
+      }
+  </script>
+</head>
+<body>
+<form id="frmUploader" enctype="multipart/form-data" action="<%= story._id %>/api/Upload/" method="post">
+  <input type="file" name="imgUploader" multiple />
+  <input type="submit" name="submit" id="btnSubmit" value="Upload" />
+</form>
+</body>
+
+
+<div class="row">
+  <div class="col-md-3">
+    <div class="list-group">
+    </div>
+    <div id="map"></div>
+  </div>
+  <div class="col-md-9">
+    <div class="thumbnail">
+      <img class="img-responsive" src="<%= story.image %>">
+      <div class="caption-full">
+        <h4 class="pull-right">
+          $<%= story.cost %>/night
+        </h4>
+        <h4><a><%=story.name%></a></h4>
+        <p><%= story.description %></p>
+        <p>
+          <em>Submitted by: <a href="/users/<%= story.author.id %>"><%= story.author.username %></a>, <%= moment(story.createdAt).fromNow() %></em>
+        </p>
+        <% if(currentUser && story.author.id.equals(currentUser._id) || currentUser && currentUser.isAdmin){ %>
+        <a class="btn btn-warning" href="/stories/<%= story._id %>/edit">Edit</a>
+        <form action="/stories/<%= story._id %>?_method=DELETE" method="POST" class="delete-form">
+          <button class="btn btn-danger">Delete</button>
+        </form>
+        <% } %>
+      </div>
+    </div>
+    <div class="well">
+      <div class="text-right">
+        <a class="btn btn-success" href="/stories/<%= story._id %>/comments/new">Add New Comment</a>
+      </div>
+      <hr>
+      <% story.comments.forEach(function(comment){ %>
+      <div class="row">
+        <div class="col-md-12">
+          <strong><%= comment.author.username %></strong>
+          <span class="pull-right"><%= moment(comment.createdAt).fromNow() %></span>
+          <div>
+           <%= comment.text %> 
+
+           <% if(currentUser && comment.author.id.equals(currentUser._id) || currentUser && currentUser.isAdmin){ %>
+            <div class="pull-right">
+              <a href="/stories/<%=story._id%>/comments/<%=comment._id%>/edit" class="btn btn-xs btn-warning">EDIT</a>
+              <form class="delete-form" action="/stories/<%=story._id%>/comments/<%=comment._id%>?_method=DELETE" method="POST">
+                <button class="btn btn-xs btn-danger">DELETE</button>
+              </form>
+            </div>
+          <% } %>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <% }) %>
+  </div>
+</div>
+</div>

@@ -1,0 +1,158 @@
+{
+    "author": {
+        "ID":"",
+        "nickname":"",
+        "e-mail":"",
+        "password":""
+    },
+    "storypart1": {
+        "URL": "jobs/bild1.jpg",
+        "description": "At 5:30 o'clock in front of a bakery",
+        "position": "bottom",
+        "type": "textbox"
+    },
+    "storypart2": {
+        "URL": "jobs/bild2.jpg",
+        "description": "The employees are coming to late!",
+        "position": "bottom",
+        "type": "textbox"
+    },    
+    "storypart3": {
+        "URL": "jobs/bild3.jpg",
+        "description": "",
+        "position": "",
+        "type": ""
+    },
+    "storypart4": {
+        "URL": "jobs/bild4.jpg",
+        "description": "",
+        "position": "",
+        "type": ""
+    },
+    "storypart5": {
+        "URL": "jobs/bild5.jpg",
+        "description": "On Monday...",
+        "position": "bottom",
+        "type": "textbox"
+    }, 
+    "storypart6": {
+        "URL": "jobs/bild6.jpg",
+        "description": "...Tuesday...",
+        "position": "bottom",
+        "type": "textbox"
+    },
+    "storypart7": {
+        "URL": "jobs/bild7.jpg",
+        "description": "... Wednesday...",
+        "position": "bottom",
+        "type": "textbox"
+    }, 
+    "storypart8": {
+        "URL": "jobs/bild8.jpg",
+        "description": "... on every day",
+        "position": "bottom",
+        "type": "textbox"
+    },
+    "storypart9": {
+        "URL": "jobs/bild9.jpg",
+        "description": ">>Enough!<<",
+        "position": "",
+        "type": ""
+    }, 
+    "storypart10": {
+        "URL": "jobs/bild10.jpg",
+        "description": "",
+        "position": "",
+        "type": ""
+    },
+    "storypart11": {
+        "URL": "jobs/bild11.jpg",
+        "description": "Because of that employee Amira gets fired",
+        "position": "bottom",
+        "type": "textbox"
+    },
+    "storypart12": {
+        "URL": "jobs/bild12.jpg",
+        "description": "",
+        "position": "",
+        "type": ""
+    },
+    "storypart13": {
+        "URL": "jobs/bild13.jpg",
+        "description": "",
+        "position": "",
+        "type": ""
+    },
+    "storypart14": {
+        "URL": "jobs/bild14.jpg",
+        "description": "The other two are coming in time",
+        "position": "bottom",
+        "type": "textbox"
+    },
+    "storypart15": {
+        "URL": "jobs/bild15.jpg",
+        "description": "Lamia: >>Faris, Amira got fired because she came too late so often!<< ",
+        "position": "bottom",
+        "type": "textbox"
+    },
+    "storypart16": {
+        "URL": "jobs/bild16.jpg",
+        "description": "Faris: >>Yes Lamia, the rules are strict. We shouldn't do the same mistake!<<",
+        "position": "",
+        "type": ""
+    },
+    "storypart17": {
+        "URL": "jobs/bild17.jpg",
+        "description": "So on the next day...",
+        "position": "bottom",
+        "type": "textbox"
+    },
+    "storypart18": {
+        "URL": "jobs/bild18.jpg",
+        "description": "",
+        "position": "",
+        "type": ""
+    },
+    "storypart19": {
+        "URL": "jobs/bild19.jpg",
+        "description": "",
+        "position": "",
+        "type": ""
+    },
+    "storypart20": {
+        "URL": "jobs/bild20.jpg",
+        "description": "Faris: >>There is nobody inside!<<",
+        "position": "bottom",
+        "type": "textbox"
+    },
+    "storypart21": {
+        "URL": "jobs/bild21.jpg",
+        "description": "Faris: >>The door is closed<<",
+        "position": "bottom",
+        "type": "textbox"
+    },
+    "storypart22": {
+        "URL": "jobs/bild22.jpg",
+        "description": "Lamia: >>But we came in time!<<",
+        "position": "bottom",
+        "type": "textbox"
+    },
+    "storypart23": {
+        "URL": "jobs/bild23.jpg",
+        "description": "Why is the door closed?",
+        "position": "bottom",
+        "type": "textbox"
+    },
+    "storypart24": {
+        "URL": "jobs/bild24.jpg",
+        "description": "",
+        "position": "",
+        "type": ""
+    }, 
+    "storypart25": {
+        "URL": "jobs/storyende.jpg",
+        "description": "",
+        "position": "",
+        "type": ""
+    }
+}

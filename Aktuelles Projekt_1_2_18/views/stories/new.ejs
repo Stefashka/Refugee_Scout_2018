@@ -1,0 +1,105 @@
+<% include ../partials/header %>
+    <div class="row">
+        <h1 style="text-align: center">Create a New Story</h1>
+        
+		<script>
+$(document).ready(function(){
+    $(".morephotos").click(function(){
+        $("div").removeClass("hidden");
+        $(".morephotos").hide();
+        $(".abstand_verstecken").hide();
+
+    });
+
+});
+</script>
+
+
+<br><br>
+
+ <form action="/stories" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input class="form-control" type="text" maxlength="15" name="name" id="name" placeholder="Lukas is dumm">
+                </div>
+
+           
+
+                
+
+
+
+<div class="container ">
+
+    <div class="row">
+
+        <div class="col-sm-12">
+
+            <div class="row">
+                <div class="col-sm-12 headline text-center">Create your story and upload your pictures</div> <br><br><br>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="well">
+
+                        <img src="images/upload_img.PNG" class="img-responsive"><br>
+                        <p>
+								 
+								<label for="description">Description</label>
+								<input class="form-control" type="text" name="description1" id="description1" placeholder="Das beste was man im Stadtpark unternehmen kann">
+								
+								<input type="file" name="sampleFile" /><br>
+                         </p>
+                    </div>
+                </div>
+				
+				 <div class="col-sm-3">
+                    <div class="well">
+
+                        <img src="images/upload_img.PNG" class="img-responsive"><br>
+                        <p> 
+								 
+								<label for="description">Description</label>
+								<input class="form-control" type="text" name="description2" id="description2" placeholder="Das beste was man im Stadtpark unternehmen kann">
+									
+								
+                               <input type="file" name="sampleFile" /><br>
+                         </p>
+                    </div>
+                </div>
+				
+				
+             </div>
+
+<div class="form-group">
+                    <button class="btn btn-lg btn-primary btn-block">Submit!</button>
+                </div>
+
+            </form>
+
+
+<footer class="container-fluid text-center">
+    <p>A project of students from the University of Weingarten - Media and Education Management. </p><br>
+    <a href="#">Get in contact</a>
+</footer>
+
+
+
+
+           
+
+
+
+
+
+
+
+
+
+
+
+		  
+            <a href="/stories">Go Back</a>
+        </div>
+    </div>
+
