@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<link href="scripts/styles.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-startup-image" href="">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="scripts/stories.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+</head>
+<body  onload="preprocess()">
+	
+		<div>
+		<div><section><img id="picture" src="" alt=""></section>
+		<section id="arrowLeft" style="visibility: hidden;"><img src="images/arrow_left.png" alt="" onclick="changeShownElement(-1)"></section>
+		<section id="arrowRight"><img src="images/arrow_right.png" alt="" onclick="changeShownElement(1)"></section>		
+		<section id="textboxBottom">
+			<div id="text">
+				Hallo, dies ist ein Test<br>
+			</div>
+		</section>
+		<section id="textboxTop"><div id="text"></div></section></div>
+		<!--<section><img id="thinkbubble" src="images/thinkbubble.gif" alt=""></section>-->
+	
+
+
+	<script src="scripts/zepto.js"></script>
+	
+<div><footer>
+    <div class="aktuell"><a href="storiesoverview.html"><img src="images/stories_button.png"></a>
+    </div>
+    <div class="navi"><a href="glossary.html"><img src="images/glossary_button.png"></a>
+    </div>
+    <div class="dropdown"><img src="images/bubbles_transparent.png" onclick="dropup()" class="dropbtn">
+    	<div id="myDropdown" class="dropdown-content">
+			<a href="#">Language</a> 
+			<a href="#">About us</a> 	
+    	</div>
+    </div>
+</footer></div>
+</div>
+	<script>
+	window.scrollTo(0,1);
+	</script>
+</body>
+</html>
+

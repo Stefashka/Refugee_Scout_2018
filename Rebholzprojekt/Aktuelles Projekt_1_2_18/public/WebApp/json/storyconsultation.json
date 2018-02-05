@@ -1,0 +1,170 @@
+﻿{
+    "author": {
+        "ID":"",
+        "nickname":"",
+        "e-mail":"",
+        "password":""
+    },
+    "storypart1": {
+        "URL": "consultation/bild1.jpg",
+        "description": "Amira feels really sick today…",
+        "position": "bottom",
+        "type": ""
+    },
+    "storypart2": {
+        "URL": "consultation/bild2.jpg",
+        "description": "… so she is calling the doctor to make an appointment.",
+        "position": "bottom",
+        "type": ""
+    },    
+    "storypart3": {
+        "URL": "consultation/bild3.jpg",
+        "description": "",
+        "position": "",
+        "type": ""      
+    },
+    "storypart4": {
+        "URL": "consultation/bild4.jpg",
+        "description": "Afterwards she’s falling asleep.",
+        "position": "bottom",
+        "type": ""
+    },
+    "storypart5": {
+        "URL": "consultation/bild5.jpg",
+        "description": "When she wakes up again, she’s shocked about it already being so late.",
+        "position": "bottom",
+        "type": ""
+    }, 
+    "storypart6": {
+        "URL": "consultation/bild6.jpg",
+        "description": "Her appointment was already 60 minutes ago.",
+        "position": "bottom",
+        "type": ""
+    },
+    "storypart7": {
+        "URL": "consultation/bild7.jpg",
+        "description": "",
+        "position": "",
+        "type": ""
+    }, 
+    "storypart8": {
+        "URL": "consultation/bild8.jpg",
+        "description": "",
+        "position": "",
+        "type": ""
+    },
+    "storypart9": {
+        "URL": "consultation/bild9.jpg",
+        "description": "At the doctor’s",
+        "position": "bottom",
+        "type": ""
+    }, 
+    "storypart10": {
+        "URL": "consultation/bild10.jpg",
+        "description": "",
+        "position": "",
+        "type": ""
+    },    
+    "storypart11": {
+        "URL": "consultation/bild11.jpg",
+        "description": ">>I'm sorry, but miss, you're too late!<<",
+        "position": "bottom",
+        "type": ""      
+    },
+    "storypart12": {
+        "URL": "consultation/bild12.jpg",
+        "description": ">>You should be at time for any appointments you have<<",
+        "position": "",
+        "type": ""
+    },
+    "storypart13": {
+        "URL": "consultation/bild13.jpg",
+        "description": "",
+        "position": "",
+        "type": ""
+    }, 
+    "storypart14": {
+        "URL": "consultation/bild14.jpg",
+        "description": "" ,
+        "position": "",
+        "type": ""
+    },
+    "storypart15": {
+        "URL": "consultation/bild15.jpg",
+        "description": "In the waiting room…",
+        "position": "bottom",
+        "type": ""
+    }, 
+    "storypart16": {
+        "URL": "consultation/bild16.jpg",
+        "description": "Amira is very confused about all the people having their pets with them.",
+        "position": "bottom",
+        "type": ""
+    },
+    "storypart17": {
+        "URL": "consultation/bild17.jpg",
+        "description": "",
+        "position": "",
+        "type": ""
+    },    
+    "storypart18": {
+        "URL": "consultation/bild18.jpg",
+        "description": "",
+        "position": "",
+        "type": ""
+    },
+    "storypart19": {
+        "URL": "consultation/bild19.jpg",
+        "description": "After waiting…",
+        "position": "bottom",
+        "type": ""
+    },
+    "storypart20": {
+        "URL": "consultation/bild20.jpg",
+        "description": "…and waiting…",
+        "position": "bottom",
+        "type": ""
+    },
+    "storypart21": {
+        "URL": "consultation/bild21.jpg",
+        "description": "…and waiting…",
+        "position": "bottom",
+        "type": ""
+    },
+    "storypart22": {
+        "URL": "consultation/bild22.jpg",
+        "description": "…finally the doctor is coming to pick Amira up.",
+        "position": "bottom",
+        "type": ""
+    },
+    "storypart23": {
+        "URL": "consultation/bild23.jpg",
+        "description": "She’s asking where Amira has got her pet.",
+        "position": "bottom",
+        "type": ""
+    },
+    "storypart24": {
+        "URL": "consultation/bild24.jpg",
+        "description": "But Amira doesn’t understand what the doctor is asking for as she just wants to get better.",
+        "position": "bottom",
+        "type": ""
+    },
+    "storypart25": {
+        "URL": "consultation/bild25.jpg",
+        "description": "By showing at the dog, the doctor is explaining Amira…",
+        "position": "bottom",
+        "type": ""
+    },
+    "storypart26": {
+        "URL": "consultation/bild26.jpg",
+        "description": "… that she is at the veterinarian’s.",
+        "position": "bottom",
+        "type": ""
+    }, 
+    "storypart27": {
+        "URL": "consultation/storyende.jpg",
+        "description": "",
+        "position": "",
+        "type": ""
+    }                
+}

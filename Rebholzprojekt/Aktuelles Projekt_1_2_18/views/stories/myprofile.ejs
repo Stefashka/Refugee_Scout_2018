@@ -1,0 +1,100 @@
+<% include ../partials/header %>
+<head>
+    <title>RefugeeScout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<a href="/stories/new" title="To Top" class="anker">
+    <img src="images/newstory3.png">
+</a>
+<br><br>
+<div class="container ">
+
+    <div class="row">
+        <div class="col-sm-3 well bright_blue">
+            <br>
+            <div class="well white_color">
+                <p class="text-center pacifico_font_description">My Profile</p>
+                <img src="images/profile.PNG" class="img-circle img_center"  height="150" width="150" alt="Avatar">
+               <p> <br><p>Username: <%= currentUser.username %> <br>
+                E-Mail: <%= currentUser.email %> <br>
+                Password: <%= currentUser.password %> <br>
+
+            </div>
+
+        </div>
+
+        <div class="col-sm-9">
+		
+		<div class="row">
+                <div class="col-sm-12 headline text-center">Overview over your Stories</div> <br><br><br>
+        </div>
+
+
+            
+            <div class="row">
+
+
+
+
+
+                <% stories.forEach(function(story){ %>
+
+                <% if(currentUser && story.author.id.equals(currentUser._id)
+                ){%>
+
+                <div class="col-sm-3 col-sm-6">
+
+                    <div class="well">
+                        <p class="text-center title_xs"><%= story.name %></p>
+
+
+						<a href="#"> <img src="<%= story.image1 %>" class="img" height="150" width="150"></a><br><br>
+
+						<p>
+							<a href="/stories/<%= story._id %>" class="btn btn-primary">Edit</a>
+
+                        <form action="/stories/<%= story._id %>?_method=DELETE" method="POST" class="delete-form">
+                            <button class="btn btn-danger">Delete</button>
+                        </form>
+
+						</p>
+
+				   </div>
+
+                </div>
+
+                <% } %>
+
+                <% }); %>
+
+
+
+
+
+            </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+<footer class="container-fluid text-center">
+    <p>A project of students from the University of Weingarten - Media and Education Management. </p><br>
+    <a href="#">Get in contact</a>
+</footer>
+
+</body>
+

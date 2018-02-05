@@ -1,0 +1,249 @@
+<% include ../partials/header %>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Upload images to server using Node JS</title>
+  <script src="Scripts/jquery-3.1.1.min.js"></script>
+  <script src="Scripts/jquery.form.min.js"></script>
+  <script>
+      $(document).ready(function () {
+          var options = {
+              beforeSubmit: showRequest,  // pre-submit callback
+              success: showResponse  // post-submit callback
+          };
+
+          // bind to the form's submit event
+          $('#frmUploader').submit(function () {
+              $(this).ajaxSubmit(options);
+              // always return false to prevent standard browser submit and page navigation
+              return false;
+          });
+      });
+
+      // pre-submit callback
+      function showRequest(formData, jqForm, options) {
+          alert('Uploading is starting.');
+          return true;
+      }
+
+      // post-submit callback
+      function showResponse(responseText, statusText, xhr, $form) {
+          alert('status: ' + statusText + '\n\nresponseText: \n' + responseText );
+      }
+  </script>
+</head>
+<body>
+
+<form id="frmUploader" enctype="multipart/form-data" action="<%= story._id %>/api/Upload/" method="post">
+<div class="row"> <!-- Es wird eine Zeile angelegt  -->
+    <div class="col-sm-12"> <!-- Diese Zeile geht über 12 Spalten  -->
+        <div class="col-sm-4"> <!-- die Breite dieser Spalte ist 4 und hier drin befindet sich Step1 -->
+            <p class="steps" style="color: #ff9900; font-size: 250%">Step 1</p>
+            <p>Choose the number of the picture you would like to add or edit</p>
+            <input class="form-control" type="number" name="picture_nr" id="picture_nr" placeholder="Order of picture number">
+        </div>
+
+        <div class="col-sm-4">
+            <p class="steps" style="color: #ff9900; font-size: 250%">Step 2</p> <!--  Hier drin befindet sich Step 2 mit dem Picture Upload-->
+            <p>Upload your picture</p>
+            <input type="file" name="imgUploader" multiple />
+           <p> <input style="background-color: #337ab7; color: white; border:none; border-radius: 6px; padding: 2%; width: 33%; margin-top: 2%;" type="submit" name="submit" id="btnSubmit" value="Upload" />
+            </p>
+        </div>
+
+        <div class="col-sm-4">
+            <p class="steps" style="color: #ff9900; font-size: 250%">Step 3</p> <!-- Hier Step 3 mit enter a text  -->
+            <p>Enter text</p>
+            <input class="form-control" cols="35" rows="4" type="text" name="description" id="description" placeholder="What does the picture show?">
+        </div>
+    </div>
+</div>
+</form>
+
+
+
+
+
+
+
+<br><br>
+<div class="row"> <!-- Hier wird eine neue Zeile angelegt -->
+    <div class="col-sm-12">
+        <div class="col-sm-3"> <!--  die Bilder werden nebeneinander angeordnet -->
+
+            <p><b> Picture 1</b> </p>
+            <img src= "<%=story.image1 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc1 %> </p>
+        </div>
+        <div class="col-sm-3">
+
+            <p><b> Picture 2</b> </p>
+            <img src= "<%=story.image2 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc2 %> </p>
+        </div>
+        <div class="col-sm-3">
+
+            <p><b> Picture 3</b> </p>
+            <img src= "<%=story.image3 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc3 %> </p>
+        </div>
+        <div class="col-sm-3">
+
+            <p><b> Picture 4</b> </p>
+            <img src= "<%=story.image4 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc4 %> </p>
+        </div>
+    </div>
+
+</div>
+
+<br><br>
+
+<div class="row"> <!-- Hier wird eine neue Zeile angelegt -->
+    <div class="col-sm-12">
+        <div class="col-sm-3"> <!-- Bilder werden nebeneinander angeordnet -->
+
+            <p><b>Picture 5</b>  </p>
+            <img src= "<%=story.image5 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc5 %> </p>
+        </div>
+        <div class="col-sm-3">
+
+            <p><b> Picture 6</b> </p>
+            <img src= "<%=story.image6 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc6 %> </p>
+        </div>
+        <div class="col-sm-3">
+
+            <p><b> Picture 7</b> </p>
+            <img src= "<%=story.image7 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc7 %> </p>
+        </div>
+        <div class="col-sm-3">
+
+            <p><b> Picture 8</b> </p>
+            <img src= "<%=story.image8 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc8 %> </p>
+        </div>
+    </div>
+
+</div>
+
+<br><br>
+
+
+<div class="row"> <!-- Neue Zeile  -->
+    <div class="col-sm-12">
+        <div class="col-sm-3"> <!-- Anordnen der Bilder  -->
+
+            <p><b>Picture 9</b>  </p>
+            <img src= "<%=story.image9 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc9 %> </p>
+        </div>
+        <div class="col-sm-3">
+
+            <p><b> Picture 10</b> </p>
+            <img src= "<%=story.image10 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc10 %> </p>
+        </div>
+        <div class="col-sm-3">
+
+            <p><b> Picture 11</b> </p>
+            <img src= "<%=story.image11 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc11 %> </p>
+        </div>
+        <div class="col-sm-3">
+
+            <p><b> Picture 12</b> </p>
+            <img src= "<%=story.image12 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc12 %> </p>
+        </div>
+    </div>
+
+</div>
+
+<br><br>
+
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="col-sm-3">
+
+            <p><b> Picture 13 </b></p>
+            <img src= "<%=story.image13 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc13 %> </p>
+        </div>
+        <div class="col-sm-3">
+
+            <p><b> Picture 14</b> </p>
+            <img src= "<%=story.image14 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc14 %> </p>
+        </div>
+        <div class="col-sm-3">
+
+            <p><b> Picture 15</b> </p>
+            <img src= "<%=story.image15 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc15 %> </p>
+        </div>
+        <div class="col-sm-3">
+
+            <p><b> Picture 16</b> </p>
+            <img src= "<%=story.image16 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc16 %> </p>
+        </div>
+    </div>
+
+</div>
+
+<br><br>
+
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="col-sm-3">
+
+            <p><b> Picture 17</b> </p>
+            <img src= "<%=story.image17 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc17 %> </p>
+        </div>
+        <div class="col-sm-3">
+
+            <p><b>Picture 18</b>  </p>
+            <img src= "<%=story.image18 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc18 %> </p>
+        </div>
+        <div class="col-sm-3">
+
+            <p><b> Picture 19</b> </p>
+            <img src= "<%=story.image19 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc19 %> </p>
+        </div>
+        <div class="col-sm-3">
+
+            <p><b> Picture 20</b> </p>
+            <img src= "<%=story.image20 %>"  class="img" height="150" width="150">
+            <p> <%=story.desc20 %> </p>
+        </div>
+        <br><br>
+    </div>
+
+
+<br><br><br><br>
+    <div class="form-group">
+        <br><br>
+        <p>
+            <a href="/stories" <button class="btn btn-lg btn-primary btn-block" style="width: 13%; margin-left: 75.5%; margin-top: 10% ; ">Done</button> </a>
+
+        </p>
+    </div>
+
+    <br><br><br>
+
+    <footer class="container-fluid text-center" style="background-color: #153f65; padding: 25px; color: white;">
+        <p>A project of students from the University of Weingarten - Media and Education Management. </p><br>
+        <a href="#">Get in contact</a>
+    </footer>
+
+</div>
+
+</body>
